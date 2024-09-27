@@ -6,6 +6,37 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <h1>Introduction</h1>
+                <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+                <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects</p>
+            </section>
+            <section class="main-section" id="javascript_and_java">
+                <h1>JavaScript and Java</h1>
+                <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
+                <code>function greetMe(yourName) { alert("Hello " + yourName); }
+                    greetMe("World");</code>
+                <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+            </section>
+            <section class="main-section" id="variables">
+                <h1>Variables</h1>
+                <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+                <code>var x = 42.</code>
+                <p>This syntax can be used to declare both local and global variables.</p>
+            </section>
+            <section class="main-section" id="constants">
+                <h1>Constants</h1>
+                <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
+                <code>const PI = 3.14;</code>
+                <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.</p>
+            </section>
+            <section class="main-section" id="function_declarations">
+                <h1>Function declarations</h1>
+                <p>The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.</p>
+                <code>function square(number) { return number * number; }</code>
+                <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
+            </section>
+        </main>
     </body>
 </html>
